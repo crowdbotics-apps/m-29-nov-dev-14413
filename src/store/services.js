@@ -5,7 +5,7 @@ const plugin = axios.create({
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 const mnovAPI = axios.create({
-  baseURL: "https://m-29-nov-dev-14413-prod.herokuapp.com/",
+  baseURL: "https://m-29-nov-dev-14413.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_customtext_list(action) {
